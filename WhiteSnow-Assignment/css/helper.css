@@ -1,0 +1,33 @@
+:root{
+ 	--main-background:#f1f4f6;
+}
+:root{
+ 	--main-second-background:#f1f4f6;
+}
+:root{
+	--slider-nav-bg:#fff;
+}
+.p-fixed{
+	position: fixed;
+}
+.bg-white{
+	background-color: #fff
+}
+.clr-red{
+	color: red
+}
+/**************color***********************/
+:root{
+	--clr-blue:#192f59;
+}
+:root{
+	--clr-orange:#FF4500;
+}
+/***************Margin***********************/
+.mt-20{
+	margin-top: 20px
+}
+.ml-5{
+	margin-left: 5px;
+	font-size:14px;
+}

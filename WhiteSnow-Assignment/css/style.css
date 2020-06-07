@@ -1,0 +1,151 @@
+.outer-wrapper-top{
+  width: 102%;
+  background: #f6f8ff;
+ 
+
+}
+/*body{overflow:hidden;}*/
+
+.outer-wrapper-top ul li{
+  display: inline-block;
+  margin-left: 15px;
+}
+.beta-menu:hover{background:none!important;}
+.four-wrapper{
+  border-radius: 5px;
+  padding: 20px 15px;
+  border:1px solid #d9d9d9;
+  overflow: hidden;
+}
+.four-wrapper div{
+  float: left;
+  width: 50%;
+}
+.four-wrapper img{
+  width: 50px;
+  height: 50px;
+  vertical-align: center;
+}
+.four-wrapper h3{
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 36px;
+  margin-top: 0px!important
+}
+.four-wrapper span{
+  color:gray;
+}
+
+.overall-wrapper{
+    border-radius: 5px;
+  padding: 20px 15px;
+  border:1px solid #d9d9d9;
+}
+.overall-wrapper h5{
+  font-size: 16px;
+  margin-bottom:20px;
+  font-weight: 600;
+}
+.overall-wrapper ol{
+  margin-left: 15px;
+}
+.overall-wrapper ol li{
+  line-height: 26px;
+  font-size: 14px;
+}
+
+.progress{
+  position: relative;
+  margin: 4px;
+  float:left;
+  width: 100%;
+  height: 100px;
+  margin-top: 30px;
+  background: transparent;
+  box-shadow:none!important;
+  text-align: center;
+}
+.top-persent{
+ margin-left:-315px;
+}
+.fair{
+ margin-top: -57px;
+    margin-left:117px;
+}
+.fair h6{
+  font-size: 18px;
+  font-weight: 700;
+}
+.barOverflow{ /* Wraps the rotating .bar */
+  position: relative;
+  overflow: hidden; /* Comment this line to understand the trick */
+  width: 100%; height:100px; /* Half circle (overflow) */
+  margin-bottom: -14px; /* bring the numbers up */
+}
+.bar{
+  position: relative;
+  top: 0; 
+  left:40%;
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border:20px solid #d6d6d6;     /* half gray, */
+  border-bottom-color:linear-gradient(to left,#FBD786,#f7797d);  /* half azure */
+  border-left-color:#F4B394;
+}
+.three-wrappers{
+   border-radius: 5px;
+  padding: 20px 15px;
+  border:1px solid #d9d9d9;
+  overflow:hidden;
+  height:250px;
+}
+canvas{
+	width:200px!important;
+    height: 170px!important;
+	margin-top:15px;
+	margin-right:45px;
+	transform:rotate(250deg);
+}
+
+
+.element {
+      display: inline-block;
+      width: 400px;
+      height: 400px;
+      vertical-align: top;
+    }
+.fa-plus:before {
+    position: relative;
+    top: -22px;
+    left: 8.5px;
+}
+.fa-bell:before {
+    position: relative;
+    top: -22px;
+    left: 9px;
+}
+::placeholder{color:#fff;}
+
+.jchart__donut__segment,.jchart__pie__segment,.jchart__bar__segment{transition:stroke cubic-bezier(0.22, 0.61, 0.36, 1) 0.3s,fill cubic-bezier(0.22, 0.61, 0.36, 1) 0.3s;outline:none;cursor:pointer}.jchart__figure{position:relative}.jchart,.jchart__body{width:100%;height:100%}.jchart__bar{overflow:visible}.jchart__summary{font-size:0.5rem;font-weight:400;line-height:1em}.jchart__summary-text{margin:0}.jchart__legend-shape{display:inline-block;vertical-align:middle;width:2rem;height:2rem;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%}.jchart .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}
+
+/*add_class*/
+#common-class{
+  width: 100%;
+  padding:10px 30px;
+}
+label{
+  letter-spacing: 1px;
+}
+#add_class .validation{
+  color: red;
+  padding: 5px 0px;
+}
+
+@media screen and (max-width: 520px){
+  .pr-pl-remove{
+    padding-right:0px!important;
+    padding-left:0px!important
+  }
+}
